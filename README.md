@@ -1,6 +1,6 @@
 # Szymon Jaworski | Software Engineer
 
-I build the Agent Management UI in Splunk Enterprise with React and TypeScript. What I care about most is making changes safe to ship, whether a person or an AI agent wrote them:
+I build the Agent Management UI in Splunk Enterprise with React and TypeScript. AI agents write all of my code through Claude Code and Codex, so what I care about most is making their changes safe to ship:
 
 - **E2E tests that run in CI.** I created a Cypress E2E suite of 100+ tests that runs against a freshly provisioned Splunk environment for changes to both the UI and its backend services.
 - **Unit and integration tests as a safety net.** Over 1,000 Cypress component tests keep line coverage at 95.8%. As agents write more of the code, tests are how their changes get verified, so I hold the bar at 95%+.
@@ -20,6 +20,7 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 **Software Engineer** | Nov 2023 – present
 
 - Frontend tech lead for Agent Management in Splunk Enterprise since January 2026. I set the technical direction, scope work for other engineers, partner with product management, design, and product security, and handle customer issues that cross the UI and the backend.
+- Own my team's AI transformation work since February 2026: making our codebases easy for AI agents to work in through agent instruction files, skills and slash commands, AI code review, and agentic automation in CI. I set its direction and get the team involved.
 - Built the UI for remote configuration of OpenTelemetry Collectors with configuration sets, shipped in Splunk Enterprise 10.6, and co-authored its design. I worked spec-first with AI agents: I drafted the specification and component design with OpenSpec, had agents implement it, then refined the result over six weeks of review and testing.
 - Built the app content previewer in Splunk Enterprise 10.4 end to end: the design, the Go API, the React UI, integration tests, and the security review. Administrators browse deployment app files in the browser instead of logging in to the server. It was the team's first feature built almost entirely by AI agents.
 - Built the server class configuration viewer in Splunk Enterprise 10.4, both the Go endpoints and the UI. It shows the merged `serverclass.conf` settings that btool resolves, without SSH access to the host.
@@ -27,7 +28,7 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 - Built the new server class wizard, which replaced separate flows for creating a server class, assigning apps, and assigning agents with one guided flow that previews the result.
 - One of the main frontend engineers on the React and TypeScript rewrite of the legacy deployment server UI, shipped as Agent Management in Splunk Enterprise 9.4. I built the agents table, the applications pages, data fetching, and type-safe routing, and wrote the initial OpenAPI specification for the new Go backend.
 - Drove the removal of the legacy UI in Splunk Enterprise 10.1 across three codebases, and recreated its test scenarios in the Cypress E2E suite.
-- Stack: React, TypeScript, TanStack Query, Zod, Splunk UI, Storybook, Cypress, Go, OpenAPI, Docker.
+- Stack: React, TypeScript, TanStack Query, Zod, Splunk UI, Storybook, Cypress, Go, OpenAPI, Docker, Claude Code, Codex.
 
 ### [TVN Warner Bros. Discovery](https://www.linkedin.com/company/166545/)
 
