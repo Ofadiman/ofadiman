@@ -26,12 +26,15 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 
 **Software Engineer** | 11.2023 - Ongoing
 
-- Create a new UI for a legacy service, utilizing [React](https://react.dev/) to modernize the design, enhance user experience and extend existing features.
-- Develop E2E tests in [Cypress](https://www.cypress.io/) running on eventually consistent, distributed system ensuring reliable execution in both CI and local environments and minimizing test flakiness.
-- Maintain over 95% code coverage across unit and integration tests, upholding high standards for code quality and reliability.
-- Create multiple proof of concepts (PoC's) projects to validate new technologies and architectures.
-- Design API schema for a new service in [Golang](https://go.dev/), adhering to [OpenAPI](https://swagger.io/specification/) specification standard.
-- Create a complex environment for local application development.
+- Frontend tech lead for Agent Management in Splunk Enterprise since January 2026. I set the technical direction, scope work for other engineers, partner with product management, design, and product security, and handle customer issues that cross the UI and the backend.
+- Built the UI for remote configuration of OpenTelemetry Collectors with configuration sets, shipped in Splunk Enterprise 10.6, and co-authored its design. I worked spec-first with AI agents: I drafted the specification and component design with OpenSpec, had agents implement it, then refined the result over six weeks of review and testing.
+- Built the app content previewer in Splunk Enterprise 10.4 end to end: the design, the Go API, the React UI, integration tests, and the security review. Administrators browse deployment app files in the browser instead of logging in to the server. It was the team's first feature built almost entirely by AI agents.
+- Built the server class configuration viewer in Splunk Enterprise 10.4, both the Go endpoints and the UI. It shows the merged `serverclass.conf` settings that btool resolves, without SSH access to the host.
+- Built the frontend of the effective configuration view on the agent details page, which shows the merged btool output of an agent's configuration files such as `inputs.conf` and `outputs.conf`. I virtualized its list so it stays fast for configurations thousands of lines long.
+- Built the new server class wizard, which replaced separate flows for creating a server class, assigning apps, and assigning agents with one guided flow that previews the result.
+- One of the main frontend engineers on the React and TypeScript rewrite of the legacy deployment server UI, shipped as Agent Management in Splunk Enterprise 9.4. I built the agents table, the applications pages, data fetching, and type-safe routing, and wrote the initial OpenAPI specification for the new Go backend.
+- Drove the removal of the legacy UI in Splunk Enterprise 10.1 across three codebases, and recreated its test scenarios in the Cypress E2E suite.
+- Stack: React, TypeScript, TanStack Query, Zod, Splunk UI, Storybook, Cypress, Go, OpenAPI, Docker.
 
 ### [TVN Warner Bros. Discovery](https://www.linkedin.com/company/166545/)
 
