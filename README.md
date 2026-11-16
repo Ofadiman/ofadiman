@@ -13,13 +13,6 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 - GitHub: [Ofadiman](https://github.com/ofadiman)
 - LinkedIn: [Szymon Jaworski](https://www.linkedin.com/in/szymon-jaworski-674112205/)
 
-## Why would you want to work with me?
-
-- I consistently maintain clear and thorough documentation, ensuring shorter onboarding time for new team members and streamlined execution of infrequent tasks, ultimately improving team efficiency.
-- As a versatile programmer with expertise in frontend, backend, and devops tasks, I can quickly adapt to project requirements and contribute effectively across various stages of the development process.
-- Passionate about sharing my knowledge with colleagues, I have created and delivered presentations on topics such as "[JavaScript Code Generators](https://github.com/Ofadiman/code-generation-tools-comparison)," "[Functional Programming in TypeScript](https://docs.google.com/presentation/d/1M2KLkeMSEQOIgr579c9B52ZExHKjTMCOm60wnpg4AWY/edit#slide=id.p)," and "APIs for Non-Technical People," fostering a culture of continuous learning within the team.
-- By leveraging AI tools, I enhance my development speed, generate innovative ideas, and produce higher quality documentation, ensuring that I deliver efficient and cutting-edge solutions in the rapidly evolving tech landscape.
-
 ## My professional experience
 
 ### [Splunk](https://www.linkedin.com/company/splunk/)
@@ -70,6 +63,12 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 - Built the mobile app of a SaaS CRM system on top of its existing platform.
 - Built an admin panel for managing all of the application's resources, with charts for data visualization.
 - Stack: React, React Native, Redux, Redux Toolkit, TypeScript, Node.js, Nest.js, PostgreSQL, AWS.
+
+## Talks
+
+- [JavaScript Code Generators](https://github.com/Ofadiman/code-generation-tools-comparison): a comparison of code generation tools in the JavaScript and TypeScript ecosystem.
+- [Functional Programming in TypeScript](https://docs.google.com/presentation/d/1M2KLkeMSEQOIgr579c9B52ZExHKjTMCOm60wnpg4AWY/edit#slide=id.p): pure functions and side effects, immutability, currying, and function composition in TypeScript with Ramda and Immutable.js, and the trade-offs of the style.
+- APIs for Non-Technical People: how HTTP APIs work for project managers and manual testers, covering methods, URLs, and query parameters in Postman against a demo API I built for the talk.
 
 ## Languages
 
