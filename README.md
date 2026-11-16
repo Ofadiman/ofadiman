@@ -44,6 +44,7 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 - Implemented user-interaction analytics for server-side rendered React applications with Google Tag Manager and Google Analytics 4.
 - Added OpenTelemetry distributed tracing to Go applications built on Gin and Node.js applications built on Fastify, to help find performance bottlenecks.
 - Built React components that follow the company's design system.
+- Stack: React, Node.js, Fastify, Go, Gin, OpenTelemetry, GitHub Actions, Jenkins, Google Tag Manager, Google Analytics 4.
 
 ### [NeuroSYS](https://www.linkedin.com/company/1064681/)
 
