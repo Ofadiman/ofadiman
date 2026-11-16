@@ -33,17 +33,19 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 
 **Software Engineer** | Dec 2022 – Oct 2023
 
+- Moved a Next.js application to a custom server-side rendering framework built on Fastify and React. Together with the team, I migrated the home and article pages of TVN's core news services, including TVN24, Uwaga!, Dzień Dobry TVN, and TVN Style, and built the React components those pages render.
+- Built the integration with the ad service that serves revenue-generating ads on those pages: code that builds site maps from article parameters, sends them to the ad service so it knows where to place ads, and renders the ads on the page.
 - Migrated the CI/CD of the React component library from Jenkins to GitHub Actions, which sped up builds and cut pipeline maintenance.
 - Implemented user-interaction analytics for server-side rendered React applications with Google Tag Manager and Google Analytics 4.
 - Added OpenTelemetry distributed tracing to Go applications built on Gin and Node.js applications built on Fastify, to help find performance bottlenecks.
-- Built React components that follow the company's design system.
 - Stack: React, Node.js, Fastify, Go, Gin, OpenTelemetry, GitHub Actions, Jenkins, Google Tag Manager, Google Analytics 4.
 
 ### [NeuroSYS](https://www.linkedin.com/company/1064681/)
 
 **Software Engineer** | Mar 2022 – Nov 2022
 
-- Built two core backend services for a SaaS platform that controls access to IoT devices: a booking system for reserving and renting spaces, and an API for issuing permission-based virtual keys to devices such as smart doors.
+- Built a booking service for reserving and renting spaces, one of the core backend services of a SaaS platform that controls access to IoT devices.
+- Built a virtual key service for issuing permission-based access keys to IoT devices such as smart doors.
 - Stack: TypeScript, Node.js, Nest.js, PostgreSQL. Patterns: DDD, CQRS, Event Sourcing.
 
 ### [Netguru](https://www.linkedin.com/company/2488424/)
