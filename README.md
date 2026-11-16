@@ -17,7 +17,7 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 
 ### [Splunk](https://www.linkedin.com/company/splunk/)
 
-**Software Engineer** | 11.2023 - Ongoing
+**Software Engineer** | Nov 2023 – present
 
 - Frontend tech lead for Agent Management in Splunk Enterprise since January 2026. I set the technical direction, scope work for other engineers, partner with product management, design, and product security, and handle customer issues that cross the UI and the backend.
 - Built the UI for remote configuration of OpenTelemetry Collectors with configuration sets, shipped in Splunk Enterprise 10.6, and co-authored its design. I worked spec-first with AI agents: I drafted the specification and component design with OpenSpec, had agents implement it, then refined the result over six weeks of review and testing.
@@ -31,7 +31,7 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 
 ### [TVN Warner Bros. Discovery](https://www.linkedin.com/company/166545/)
 
-**Software Engineer** | 12.2022 - 10.2023
+**Software Engineer** | Dec 2022 – Oct 2023
 
 - Migrated the CI/CD of the React component library from Jenkins to GitHub Actions, which sped up builds and cut pipeline maintenance.
 - Implemented user-interaction analytics for server-side rendered React applications with Google Tag Manager and Google Analytics 4.
@@ -41,14 +41,14 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 
 ### [NeuroSYS](https://www.linkedin.com/company/1064681/)
 
-**Software Engineer** | 03.2022 - 11.2022
+**Software Engineer** | Mar 2022 – Nov 2022
 
 - Built two core backend services for a SaaS platform that controls access to IoT devices: a booking system for reserving and renting spaces, and an API for issuing permission-based virtual keys to devices such as smart doors.
 - Stack: TypeScript, Node.js, Nest.js, PostgreSQL. Patterns: DDD, CQRS, Event Sourcing.
 
 ### [Netguru](https://www.linkedin.com/company/2488424/)
 
-**Software Engineer** | 04.2021 - 02.2022
+**Software Engineer** | Apr 2021 – Feb 2022
 
 - Built the backend of a payment processing microservice with a direct SEPA integration.
 - Built a REST API with admin features for creating fundraising campaigns for non-governmental organizations.
@@ -58,7 +58,7 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 
 ### [Rumblefish](https://www.linkedin.com/company/18421191/)
 
-**Junior Software Engineer** | 07.2020 - 03.2021
+**Junior Software Engineer** | Jul 2020 – Mar 2021
 
 - Built the mobile app of a SaaS CRM system on top of its existing platform.
 - Built an admin panel for managing all of the application's resources, with charts for data visualization.
@@ -72,5 +72,4 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 
 ## Languages
 
-- Native proficiency in Polish.
-- Full professional proficiency in English, with significant experience working with clients from countries such as France, Norway, and the USA; skilled in clearly articulating progress, challenges, and thought processes while collaborating with diverse teams.
+Polish (native), English (full professional proficiency, with clients from France, Norway, and the USA).
