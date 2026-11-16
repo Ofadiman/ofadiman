@@ -32,3 +32,7 @@ The `restructure` function in `pdf/build.ts` rearranges the rendered README, so 
 Don't use `position: relative` or `position: absolute` in `pdf/styles.css`. Chromium paints positioned elements in a later layer, which moves their text out of reading order in the PDF and breaks text extraction for applicant tracking systems. The job timeline is drawn with background gradients for this reason.
 
 The page height is measured from the rendered content, so the PDF is always a single page 210mm wide. Verify a build in two ways: open `dist/resume.pdf` with the Read tool to inspect it visually, and confirm `LC_ALL=C grep --text --only-matching '/MediaBox *\[[^]]*\]' dist/resume.pdf` prints exactly one line. A second page means the height was measured before the layout settled, for example before fonts loaded. `dist/` is git-ignored; never commit the PDF.
+
+# Git hooks
+
+Lefthook runs Prettier and the type check on every commit. The hook commands go through `mise exec --` so they use the pinned tools even when the committing shell doesn't activate mise. If `.git/hooks/pre-commit` is missing, run `mise exec -- lefthook install`. Never bypass the hooks with `--no-verify`; fix what they report.
