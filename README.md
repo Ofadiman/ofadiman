@@ -47,8 +47,7 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 **Software Engineer** | 03.2022 - 11.2022
 
 - Built two core backend services for a SaaS platform that controls access to IoT devices: a booking system for reserving and renting spaces, and an API for issuing permission-based virtual keys to devices such as smart doors.
-- Applied [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD), [Command Query Responsibility Segregation](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation) (CQRS), and [Event Sourcing](https://en.wikipedia.org/wiki/Event-driven_architecture).
-- Stack: [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en), [Nest.js](https://nestjs.com/), [PostgreSQL](https://www.postgresql.org/).
+- Stack: [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en), [Nest.js](https://nestjs.com/), [PostgreSQL](https://www.postgresql.org/). Patterns: DDD, CQRS, Event Sourcing.
 
 ### [Netguru](https://www.linkedin.com/company/2488424/)
 
@@ -57,9 +56,8 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 - Built the backend of a payment processing microservice with a direct SEPA integration.
 - Built a REST API with admin features for creating fundraising campaigns for non-governmental organizations.
 - Built an internal [Slack](https://api.slack.com/bot-users) chatbot that automates employees' everyday tasks.
-- Applied [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD), [Command Query Responsibility Segregation](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation) (CQRS), and [Event Sourcing](https://en.wikipedia.org/wiki/Event-driven_architecture).
 - Provisioned [AWS](https://aws.amazon.com/) infrastructure with [Terraform](https://www.terraform.io/), including S3 buckets and Cognito user pools.
-- Stack: [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en), [Koa.js](https://koajs.com/), [Nest.js](https://nestjs.com/), [GraphQL](https://graphql.org/), [Serverless Framework](https://www.serverless.com/), [PostgreSQL](https://www.postgresql.org/), [MongoDB](https://www.mongodb.com/).
+- Stack: [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en), [Koa.js](https://koajs.com/), [Nest.js](https://nestjs.com/), [GraphQL](https://graphql.org/), [Serverless Framework](https://www.serverless.com/), [PostgreSQL](https://www.postgresql.org/), [MongoDB](https://www.mongodb.com/). Patterns: DDD, CQRS, Event Sourcing.
 
 ### [Rumblefish](https://www.linkedin.com/company/18421191/)
 
