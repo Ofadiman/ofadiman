@@ -40,17 +40,17 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 
 **Software Engineer** | 12.2022 - 10.2023
 
-- Migrated the CI/CD of the [React](https://react.dev/) component library from [Jenkins](https://www.jenkins.io/) to [GitHub Actions](https://github.com/features/actions), which sped up builds and cut pipeline maintenance.
-- Implemented user-interaction analytics for server-side rendered [React](https://react.dev/) applications with [Google Tag Manager](https://developers.google.com/tag-platform/tag-manager/web) and [Google Analytics 4](https://developers.google.com/analytics/devguides/collection/ga4).
-- Added [OpenTelemetry](https://opentelemetry.io/) distributed tracing to [Go](https://go.dev/) applications built on [Gin](https://gin-gonic.com/) and [Node.js](https://nodejs.org/en) applications built on [Fastify](https://www.fastify.io/), to help find performance bottlenecks.
-- Built [React](https://react.dev/) components that follow the company's design system.
+- Migrated the CI/CD of the React component library from Jenkins to GitHub Actions, which sped up builds and cut pipeline maintenance.
+- Implemented user-interaction analytics for server-side rendered React applications with Google Tag Manager and Google Analytics 4.
+- Added OpenTelemetry distributed tracing to Go applications built on Gin and Node.js applications built on Fastify, to help find performance bottlenecks.
+- Built React components that follow the company's design system.
 
 ### [NeuroSYS](https://www.linkedin.com/company/1064681/)
 
 **Software Engineer** | 03.2022 - 11.2022
 
 - Built two core backend services for a SaaS platform that controls access to IoT devices: a booking system for reserving and renting spaces, and an API for issuing permission-based virtual keys to devices such as smart doors.
-- Stack: [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en), [Nest.js](https://nestjs.com/), [PostgreSQL](https://www.postgresql.org/). Patterns: DDD, CQRS, Event Sourcing.
+- Stack: TypeScript, Node.js, Nest.js, PostgreSQL. Patterns: DDD, CQRS, Event Sourcing.
 
 ### [Netguru](https://www.linkedin.com/company/2488424/)
 
@@ -58,9 +58,9 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 
 - Built the backend of a payment processing microservice with a direct SEPA integration.
 - Built a REST API with admin features for creating fundraising campaigns for non-governmental organizations.
-- Built an internal [Slack](https://api.slack.com/bot-users) chatbot that automates employees' everyday tasks.
-- Provisioned [AWS](https://aws.amazon.com/) infrastructure with [Terraform](https://www.terraform.io/), including S3 buckets and Cognito user pools.
-- Stack: [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en), [Koa.js](https://koajs.com/), [Nest.js](https://nestjs.com/), [GraphQL](https://graphql.org/), [Serverless Framework](https://www.serverless.com/), [PostgreSQL](https://www.postgresql.org/), [MongoDB](https://www.mongodb.com/). Patterns: DDD, CQRS, Event Sourcing.
+- Built an internal Slack chatbot that automates employees' everyday tasks.
+- Provisioned AWS infrastructure with Terraform, including S3 buckets and Cognito user pools.
+- Stack: TypeScript, Node.js, Koa.js, Nest.js, GraphQL, Serverless Framework, PostgreSQL, MongoDB. Patterns: DDD, CQRS, Event Sourcing.
 
 ### [Rumblefish](https://www.linkedin.com/company/18421191/)
 
@@ -68,7 +68,7 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 
 - Built the mobile app of a SaaS CRM system on top of its existing platform.
 - Built an admin panel for managing all of the application's resources, with charts for data visualization.
-- Stack: [React](https://react.dev/), [React Native](https://reactnative.dev/), [Redux](https://redux.js.org/), [Redux Toolkit](https://redux-toolkit.js.org/), [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en), [Nest.js](https://nestjs.com/), [PostgreSQL](https://www.postgresql.org/), [AWS](https://aws.amazon.com/).
+- Stack: React, React Native, Redux, Redux Toolkit, TypeScript, Node.js, Nest.js, PostgreSQL, AWS.
 
 ## Languages
 
