@@ -58,6 +58,15 @@ header h1 {
   letter-spacing: -0.025em;
 }
 
+.headline {
+  display: block;
+  margin-top: 1.5mm;
+  color: var(--accent);
+  font-size: 13pt;
+  font-weight: 560;
+  letter-spacing: -0.005em;
+}
+
 .contact {
   display: flex;
   flex-wrap: wrap;

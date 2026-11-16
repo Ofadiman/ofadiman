@@ -22,7 +22,7 @@ Write straight quotes and apostrophes in the README. The markdown-it typographer
 
 The `restructure` function in `pdf/build.ts` rearranges the rendered README, so the PDF layout depends on these README conventions:
 
-- Everything before the first `##` becomes the header. The `#` heading is the title and the PDF document title, the first paragraph is the intro, and the first list becomes the highlight cards. Each card item starts with a `**Title.**` lead-in, and the trailing period is dropped in the PDF.
+- Everything before the first `##` becomes the header. The `#` heading is the title and the PDF document title; in a `# Name | Headline` heading, the PDF shows the headline on its own line below the name. The first paragraph is the intro, and the first list becomes the highlight cards. Each card item starts with a `**Title.**` lead-in, and the trailing period is dropped in the PDF.
 - The list under `## Contact` moves below the title as one row, and the `Contact` heading disappears.
 - Each job is a `### [Company](url)` heading followed by a `**Role** | dates` paragraph. The dates move to the right of the company name.
 - Two lists separated only by a blank line merge into one list, so put a heading between them.

@@ -1,4 +1,4 @@
-# Software Engineer at Splunk
+# Szymon Jaworski | Software Engineer
 
 I build the Agent Management UI in Splunk Enterprise with React and TypeScript. What I care about most is making changes safe to ship, whether a person or an AI agent wrote them:
 

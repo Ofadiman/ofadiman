@@ -38,6 +38,15 @@ const restructure = (): void => {
   }
   document.body.replaceChildren(header, main);
 
+  const name = header.querySelector(":scope > h1");
+  const [fullName, ...headlineParts] = (name?.textContent ?? "").split(" | ");
+  if (name && fullName && headlineParts.length > 0) {
+    const headline = document.createElement("span");
+    headline.className = "headline";
+    headline.textContent = headlineParts.join(" | ");
+    name.replaceChildren(fullName, headline);
+  }
+
   header.querySelector(":scope > p")?.classList.add("intro");
   const highlights = header.querySelector(":scope > ul");
   highlights?.classList.add("highlights");
