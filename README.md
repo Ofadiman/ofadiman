@@ -37,39 +37,37 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 
 **Software Engineer** | 12.2022 - 10.2023
 
-- Migrate CI/CD pipelines for [React](https://react.dev/) component libraries from [Jenkins](https://www.jenkins.io/) to [GitHub Actions](https://github.com/features/actions), resulting in improved build times, and reduced maintenance efforts.
-- Implement analytics for server-side rendered [React](https://react.dev/) applications using [Google Tag Manager](https://developers.google.com/tag-platform/tag-manager/web) and [Google Analytics 4](https://developers.google.com/analytics/devguides/collection/ga4), enabling comprehensive tracking of user interactions and valuable insights for data-driven decision making.
-- Integrate distributed tracing across [Golang](https://go.dev/) applications utilizing the [Gin framework](https://gin-gonic.com/) and [Node.js](https://nodejs.org/en) applications utilizing the [Fastify](https://www.fastify.io/) framework using [OpenTelemetry](https://opentelemetry.io/), enhancing system observability and enabling efficient identification and resolution of performance bottlenecks.
-- Develop [React](https://react.dev/) components adhering to the organization's internally established design system, ensuring consistent user interfaces and seamless integration with existing applications and workflows.
+- Migrated the CI/CD of the [React](https://react.dev/) component library from [Jenkins](https://www.jenkins.io/) to [GitHub Actions](https://github.com/features/actions), which sped up builds and cut pipeline maintenance.
+- Implemented user-interaction analytics for server-side rendered [React](https://react.dev/) applications with [Google Tag Manager](https://developers.google.com/tag-platform/tag-manager/web) and [Google Analytics 4](https://developers.google.com/analytics/devguides/collection/ga4).
+- Added [OpenTelemetry](https://opentelemetry.io/) distributed tracing to [Go](https://go.dev/) applications built on [Gin](https://gin-gonic.com/) and [Node.js](https://nodejs.org/en) applications built on [Fastify](https://www.fastify.io/), to help find performance bottlenecks.
+- Built [React](https://react.dev/) components that follow the company's design system.
 
 ### [NeuroSYS](https://www.linkedin.com/company/1064681/)
 
 **Software Engineer** | 03.2022 - 11.2022
 
-- Develop a SaaS application for clients managing access to IoT devices, working as a backend developer responsible for building two key backend services.
-- Implement a booking system that enables users to reserve and rent spaces.
-- Design and implement APIs, enabling customers to create virtual access keys for IoT devices (e.g., smart doors) based on user permissions.
-- Utilize [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en), and [Nest.js](https://nestjs.com/) for backend development, with [PostgreSQL](https://www.postgresql.org/) as the primary database.
-- Employ architectural patterns such as [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD), [Command Query Responsibility Segregation](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation) (CQRS), and [Event Sourcing](https://en.wikipedia.org/wiki/Event-driven_architecture) to optimize application design.
+- Built two core backend services for a SaaS platform that controls access to IoT devices: a booking system for reserving and renting spaces, and an API for issuing permission-based virtual keys to devices such as smart doors.
+- Applied [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD), [Command Query Responsibility Segregation](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation) (CQRS), and [Event Sourcing](https://en.wikipedia.org/wiki/Event-driven_architecture).
+- Stack: [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en), [Nest.js](https://nestjs.com/), [PostgreSQL](https://www.postgresql.org/).
 
 ### [Netguru](https://www.linkedin.com/company/2488424/)
 
 **Software Engineer** | 04.2021 - 02.2022
 
-- Develop the backend component of a payment processing microservice, featuring direct integration with the SEPA payment system.
-- Develop a REST API with administrative functionality for creating fundraising campaigns for non-governmental organizations.
-- Develop a chatbot application for internal use, seamlessly integrated with [Slack](https://api.slack.com/bot-users) to assist employees with daily tasks and improve productivity by offering various automations directly within their chat interface.
-- Employ architectural patterns such as [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD), [Command Query Responsibility Segregation](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation) (CQRS), and [Event Sourcing](https://en.wikipedia.org/wiki/Event-driven_architecture) to optimize application design.
-- Deploy and configure infrastructure on [AWS](https://aws.amazon.com/) using [Terraform](https://www.terraform.io/), including services such as S3 buckets and AWS Cognito user pools.
-- Utilize [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en), [Koa.js](https://koajs.com/), and [Nest.js](https://nestjs.com/) for backend development, leveraging diverse frameworks to build modular and maintainable applications. Employ [GraphQL](https://graphql.org/) for efficient data retrieval, and the [Serverless framework](https://www.serverless.com/) for scalable infrastructure management. Work with [PostgreSQL](https://www.postgresql.org/) and [MongoDB](https://www.mongodb.com/) as primary databases to cater to diverse project requirements.
+- Built the backend of a payment processing microservice with a direct SEPA integration.
+- Built a REST API with admin features for creating fundraising campaigns for non-governmental organizations.
+- Built an internal [Slack](https://api.slack.com/bot-users) chatbot that automates employees' everyday tasks.
+- Applied [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD), [Command Query Responsibility Segregation](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation) (CQRS), and [Event Sourcing](https://en.wikipedia.org/wiki/Event-driven_architecture).
+- Provisioned [AWS](https://aws.amazon.com/) infrastructure with [Terraform](https://www.terraform.io/), including S3 buckets and Cognito user pools.
+- Stack: [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en), [Koa.js](https://koajs.com/), [Nest.js](https://nestjs.com/), [GraphQL](https://graphql.org/), [Serverless Framework](https://www.serverless.com/), [PostgreSQL](https://www.postgresql.org/), [MongoDB](https://www.mongodb.com/).
 
 ### [Rumblefish](https://www.linkedin.com/company/18421191/)
 
 **Junior Software Engineer** | 07.2020 - 03.2021
 
-- Develop the mobile component of a SaaS CRM system, ensuring seamless integration with the existing platform and providing an intuitive, user-friendly interface for efficient customer relationship management on the go.
-- Develop a comprehensive admin panel for managing all application resources, featuring various data visualization tools, including different types of diagrams, to provide actionable insights and facilitate informed decision-making.
-- Utilize technologies such as [React](https://react.dev/), [React Native](https://reactnative.dev/), [Redux](https://redux.js.org/), [Redux Toolkit](https://redux-toolkit.js.org/), and [TypeScript](https://www.typescriptlang.org/) for frontend development. Leverage [Node.js](https://nodejs.org/en), [Nest.js](https://nestjs.com/), and [PostgreSQL](https://www.postgresql.org/) for backend development. Employ [AWS](https://aws.amazon.com/) services for infrastructure management to deliver a scalable and robust solutions.
+- Built the mobile app of a SaaS CRM system on top of its existing platform.
+- Built an admin panel for managing all of the application's resources, with charts for data visualization.
+- Stack: [React](https://react.dev/), [React Native](https://reactnative.dev/), [Redux](https://redux.js.org/), [Redux Toolkit](https://redux-toolkit.js.org/), [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en), [Nest.js](https://nestjs.com/), [PostgreSQL](https://www.postgresql.org/), [AWS](https://aws.amazon.com/).
 
 ## Languages
 
