@@ -6,12 +6,19 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 - **Unit and integration tests as a safety net.** Over 1,000 Cypress component tests keep line coverage at 95.8%. As agents write more of the code, tests are how their changes get verified, so I hold the bar at 95%+.
 - **Strict quality gates.** I configure strict TypeScript, ESLint, Prettier, and Stylelint, all enforced in CI.
 - **Developer tooling.** I maintain a Docker Compose environment that runs the whole stack locally: Splunk, and the forwarders and OpenTelemetry collectors it manages. Engineers develop against it, and AI agents use it to test their changes on a live system.
-- **High-quality AI output.** I write and maintain the `AGENTS.md` and topic guides that tell coding agents how the codebase works and what to run before a change is done.
 
 ## Contact
 
 - GitHub: [Ofadiman](https://github.com/ofadiman)
 - LinkedIn: [Szymon Jaworski](https://www.linkedin.com/in/szymon-jaworski-674112205/)
+
+## Working with AI agents
+
+- **Full stack on my own.** Agents let me ship backend work alongside the React UI: I built the Go endpoints behind the app content previewer and the server class configuration viewer.
+- **More output.** In my first year working through agents I added 52,600 lines, 2.4 times the 22,200 of the year before, and five times as much Go, not counting generated files.
+- **Spec-first features.** For the OpenTelemetry Collectors remote configuration UI, I drafted the specification and component design with OpenSpec, had agents implement it, then refined the result over six weeks of review and testing.
+- **An agent-ready codebase.** I write and maintain the `AGENTS.md` and topic guides that tell coding agents how the codebase works and what to run before a change is done.
+- **Team adoption.** Since February 2026 I own my team's AI transformation work: agent instruction files, skills and slash commands, AI code review, and agentic automation in CI. I set its direction and get the team involved.
 
 ## My professional experience
 
@@ -21,9 +28,7 @@ I build the Agent Management UI in Splunk Enterprise with React and TypeScript. 
 
 - Frontend tech lead for Agent Management in Splunk Enterprise since January 2026. I set the technical direction, scope work for other engineers, partner with product management, design, and product security, and handle customer issues that cross the UI and the backend.
 - Review code from engineers at every level, from interns to senior engineers, and guide interns and junior engineers through building features.
-- Own my team's AI transformation work since February 2026: making our codebases easy for AI agents to work in through agent instruction files, skills and slash commands, AI code review, and agentic automation in CI. I set its direction and get the team involved.
-- AI agents widened what I can ship on my own: besides the React UI, I now build the Go backend endpoints too, such as those behind the content previewer and the server class configuration viewer. In my first year with agents I added 2.4 times as many lines as the year before (about 52,600 versus 22,200, counting code, tests, docs, and tooling but not generated files), and five times as much Go.
-- Built the UI for remote configuration of OpenTelemetry Collectors with configuration sets, shipped in Splunk Enterprise 10.6, and co-authored its design. I worked spec-first with AI agents: I drafted the specification and component design with OpenSpec, had agents implement it, then refined the result over six weeks of review and testing.
+- Built the UI for remote configuration of OpenTelemetry Collectors with configuration sets, shipped in Splunk Enterprise 10.6, and co-authored its design.
 - Built the app content previewer in Splunk Enterprise 10.4 end to end: the design, the Go API, the React UI, integration tests, and the security review. Administrators browse deployment app files in the browser instead of logging in to the server. It was the team's first feature built almost entirely by AI agents.
 - Built the server class configuration viewer in Splunk Enterprise 10.4, both the Go endpoints and the UI. It shows the merged `serverclass.conf` settings that btool resolves, without SSH access to the host.
 - Built the frontend of the effective configuration view on the agent details page, which shows the merged btool output of an agent's configuration files such as `inputs.conf` and `outputs.conf`. I virtualized its list so it stays fast for configurations thousands of lines long.
