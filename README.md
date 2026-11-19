@@ -9,11 +9,10 @@ I direct AI agents to write the code, while I own the design, review changes, an
 
 ## Working with AI agents
 
-- **Full stack on my own.** Agents let me ship backend work alongside the React UI: I built the Go endpoints behind the app content previewer and the server class configuration viewer.
-- **More output.** In my first year working through agents I added 52,600 lines, 2.4 times the 22,200 of the year before, and five times as much Go, not counting generated files.
-- **Spec-first features.** For the OpenTelemetry Collectors remote configuration UI, I drafted the specification and component design with OpenSpec, had agents implement it, then refined the result over six weeks of review and testing.
-- **An agent-ready codebase.** I write and maintain the `AGENTS.md` and topic guides that tell coding agents how the codebase works and what to run before a change is done.
-- **Team adoption.** Since February 2026 I own my team's AI transformation work: agent instruction files, skills and slash commands, AI code review, and agentic automation in CI. I set its direction and get the team involved.
+- I maintain an `AGENTS.md` that routes agents to the project documentation written for them, so they load only what a task needs and use less context.
+- I maintain a set of custom skills that automate the tasks we repeat in the project.
+- I maintain a Docker Compose environment that runs the whole stack locally, with instructions for using it, so agents can test their work on a real, live system.
+- I use git worktrees to run agents on several tasks at a time.
 
 ## My professional experience
 
