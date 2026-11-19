@@ -25,6 +25,7 @@ The `restructure` function in `pdf/build.ts` rearranges the rendered README, so 
 - Everything before the first `##` becomes the header. The `#` heading is the title and the PDF document title; in a `# Name | Headline` heading, the PDF shows the headline on its own line below the name. The first paragraph is the intro, and the first list becomes the highlight cards. Each card item starts with a `**Title.**` lead-in, and the trailing period is dropped in the PDF.
 - The list under `## Contact` moves below the title as one row, and the `Contact` heading disappears.
 - Each job is a `### [Company](url)` heading followed by a `**Role** | dates` paragraph. The dates move to the right of the company name.
+- A job's `Stack:` line is a paragraph after its list, separated by a blank line, not a list item. The PDF styles the paragraph right after a job's list as muted text.
 - Two lists separated only by a blank line merge into one list, so put a heading between them.
 
 `restructure` runs inside the page through `page.evaluate`, so it can't use imports or variables from module scope.

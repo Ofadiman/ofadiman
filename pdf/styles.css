@@ -219,3 +219,9 @@ li::marker {
   font-size: 9pt;
   font-weight: 560;
 }
+
+.job > ul + p {
+  margin: 2mm 0 0;
+  color: var(--muted);
+  font-size: 8.75pt;
+}

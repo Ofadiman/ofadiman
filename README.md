@@ -29,7 +29,8 @@ I direct AI agents to write the code, while I own the design, review changes, an
 - Built the new server class wizard, which replaced separate flows for creating a server class, assigning apps, and assigning agents with one guided flow that previews the result.
 - One of the main frontend engineers on the React and TypeScript rewrite of the legacy deployment server UI, shipped as Agent Management in Splunk Enterprise 9.4. I built the agents table, the applications pages, data fetching, and type-safe routing, and wrote the initial OpenAPI specification for the new Go backend.
 - Drove the removal of the legacy UI in Splunk Enterprise 10.1 across three codebases, and recreated its test scenarios in the Cypress E2E suite.
-- Stack: React, TypeScript, TanStack Query, Zod, Splunk UI, Storybook, Cypress, Go, OpenAPI, Docker, Claude Code, Codex.
+
+Stack: React, TypeScript, TanStack Query, Zod, Splunk UI, Storybook, Cypress, Go, OpenAPI, Docker, Claude Code, Codex.
 
 ### [TVN Warner Bros. Discovery](https://www.linkedin.com/company/166545/)
 
@@ -40,7 +41,8 @@ I direct AI agents to write the code, while I own the design, review changes, an
 - Migrated the CI/CD of the React component library from Jenkins to GitHub Actions, which sped up builds and cut pipeline maintenance.
 - Implemented user-interaction analytics for server-side rendered React applications with Google Tag Manager and Google Analytics 4.
 - Added OpenTelemetry distributed tracing to Go applications built on Gin and Node.js applications built on Fastify, to help find performance bottlenecks.
-- Stack: React, Node.js, Fastify, Go, Gin, OpenTelemetry, GitHub Actions, Jenkins, Google Tag Manager, Google Analytics 4.
+
+Stack: React, Node.js, Fastify, Go, Gin, OpenTelemetry, GitHub Actions, Jenkins, Google Tag Manager, Google Analytics 4.
 
 ### [NeuroSYS](https://www.linkedin.com/company/1064681/)
 
@@ -48,7 +50,8 @@ I direct AI agents to write the code, while I own the design, review changes, an
 
 - Built a booking service for reserving and renting spaces, one of the core backend services of a SaaS platform that controls access to IoT devices.
 - Built a virtual key service for issuing permission-based access keys to IoT devices such as smart doors.
-- Stack: TypeScript, Node.js, Nest.js, PostgreSQL. Patterns: DDD, CQRS, Event Sourcing.
+
+Stack: TypeScript, Node.js, Nest.js, PostgreSQL. Patterns: DDD, CQRS, Event Sourcing.
 
 ### [Netguru](https://www.linkedin.com/company/2488424/)
 
@@ -58,7 +61,8 @@ I direct AI agents to write the code, while I own the design, review changes, an
 - Built a REST API with admin features for creating fundraising campaigns for non-governmental organizations.
 - Built an internal Slack chatbot that automates employees' everyday tasks.
 - Provisioned AWS infrastructure with Terraform, including S3 buckets and Cognito user pools.
-- Stack: TypeScript, Node.js, Koa.js, Nest.js, GraphQL, Serverless Framework, PostgreSQL, MongoDB. Patterns: DDD, CQRS, Event Sourcing.
+
+Stack: TypeScript, Node.js, Koa.js, Nest.js, GraphQL, Serverless Framework, PostgreSQL, MongoDB. Patterns: DDD, CQRS, Event Sourcing.
 
 ### [Rumblefish](https://www.linkedin.com/company/18421191/)
 
@@ -66,7 +70,8 @@ I direct AI agents to write the code, while I own the design, review changes, an
 
 - Built the mobile app of a SaaS CRM system on top of its existing platform.
 - Built an admin panel for managing all of the application's resources, with charts for data visualization.
-- Stack: React, React Native, Redux, Redux Toolkit, TypeScript, Node.js, Nest.js, PostgreSQL, AWS.
+
+Stack: React, React Native, Redux, Redux Toolkit, TypeScript, Node.js, Nest.js, PostgreSQL, AWS.
 
 ## Talks
 
