@@ -1,11 +1,6 @@
 # Szymon Jaworski | Software Engineer
 
-I build the Agent Management UI in Splunk Enterprise with React and TypeScript. AI agents write all of my code through Claude Code and Codex, so what I care about most is making their changes safe to ship:
-
-- **E2E tests that run in CI.** I created a Cypress E2E suite of 100+ tests that runs against a freshly provisioned Splunk environment for changes to both the UI and its backend services.
-- **Unit and integration tests as a safety net.** Over 1,000 Cypress component tests keep line coverage at 95.8%. As agents write more of the code, tests are how their changes get verified, so I hold the bar at 95%+.
-- **Strict quality gates.** I configure strict TypeScript, ESLint, Prettier, and Stylelint, all enforced in CI.
-- **Developer tooling.** I maintain a Docker Compose environment that runs the whole stack locally: Splunk, and the forwarders and OpenTelemetry collectors it manages. Engineers develop against it, and AI agents use it to test their changes on a live system.
+I direct AI agents to write the code, while I own the design, review changes, and decide what gets merged. I create unit, integration, and E2E tests and aim for near-complete code coverage. I enforce coding best practices with automated tools such as TypeScript, ESLint, Prettier, and Stylelint, and pre-commit hooks run these checks so agents commit only high-quality code. The CI/CD pipelines I maintain ensure that the changes we merge are safe for production.
 
 ## Contact
 
